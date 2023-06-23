@@ -8,9 +8,9 @@ import user_pb2_grpc
 # Database connection configuration
 conn = psycopg2.connect(
     host="localhost",
-    database="your_database_name",
-    user="your_username",
-    password="your_password"
+    database="pycrud",
+    user="postgres",
+    password=""
 )
 
 
